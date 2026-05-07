@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <p class="d-inline gap-1">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#mrbean">Mr. Bean</a>
+    </p>
+    <p class="d-inline gap-1">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#mrbeast">Mr. Beast</a>
+    </p>
+
+    <div class="collapse collapse-horizontal" id="mrbean">
+      <div class="card card-body">
+        <img height="100px" width="100px" src="./mrbean.png" alt="beast">
+      </div>
+    </div>
+
+    <div class="collapse" id="mrbeast">
+      <div class="card card-body">
+        <img height="100px" width="100px" src="./mrbeast.png" alt="bean">
+      </div>
+    </div>
+    
+  </body>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>
